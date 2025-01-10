@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": ["ES5"]
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
