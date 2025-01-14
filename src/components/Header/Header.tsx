@@ -1,9 +1,14 @@
-export default function Header() {
+type OpenDrawer = (b: boolean) => void;
+
+interface HeaderProps {
+  openDrawer: OpenDrawer
+}
+export default function Header({openDrawer}: HeaderProps ) {
   return (
     <div className='banner'>
       <h1>Featherwalk's Custom Cards</h1>
-      <button onClick={() => { }}>
-        --
+      <button onClick={() => openDrawer(true)}>
+        Set
       </button>
     </div>
   )

@@ -1,10 +1,18 @@
-export default function ManaSymbols({ cost = "" }) {
+interface ManaSymbolsProps {
+  cost: string,
+  isVertical?: boolean
+}
+
+export default function ManaSymbols(
+  { cost = "", isVertical = false }: ManaSymbolsProps
+) {
   const cleanSymbols = cost.replaceAll("{", "").replaceAll("}", "");
-  console.log(cleanSymbols)
+  const className =
+    isVertical ? "card-cost" : "card-cost horizontal";
   const symbols = cleanSymbols.split("");
   return (
-    <div className="card-cost">
-      {symbols.map((symbol: string) => <div className="mana-symbol">
+    <div className={className}>
+      {symbols.map((symbol: string) => <div className='mana-symbol'>
         <p>{symbol}</p>
       </div>)}
     </div>
