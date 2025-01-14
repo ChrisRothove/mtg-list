@@ -48,13 +48,14 @@
 
 /* Drawer */
 .drawer {
-  position: absolute;
+  position: fixed;
   top: 0px;
   width: calc(100% - 50px);
-  min-height: 100%;
+  height: 100%;
   border-radius: 8px 0px 0px 8px;
   background-color: var(--background);
   border-left: 1px solid var(--text);
+  overflow: scroll;
 }
 .open {
   left: 50px;
@@ -81,6 +82,7 @@
 .drawer p {
   text-align: justify;
   margin: 8px 16px;
+  font-size: small;
 }
 
 .setting-block {
@@ -182,6 +184,9 @@
   text-align: left;
   margin-bottom: 8px;
 }
+.list-card:hover {
+  border: 2px solid var(--highlight);
+}
 .title-line {
   display: flex;
   flex-direction: row;
@@ -203,4 +208,36 @@
   color: var(--background);
   top: auto;
   left: auto;
+}
+
+/* Card Popout */
+.card-popout {
+  position: fixed;
+  width: 340px;
+  padding: 8px 0;
+  top: calc((100% - 470px) / 2);
+  left: calc((100% - 340px) / 2);
+  background-color: var(--background);
+  border: 2px solid var(--banner);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.card-popout button {
+  background-color: var(--background);
+  margin: -13px -16px;
+  padding: 4px 8px;
+}
+
+.fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+  opacity: 0.4;
 }

@@ -50,6 +50,8 @@ function MobileLayout({currentSet, setCurrentSet}: MobileLayoutProps) {
         )}
       
       <Footer />
+
+      {drawerIsOpen && <div className="fade"></div>}
       <Drawer open={drawerIsOpen} closeDrawer={setDrawerIsOpen}>
         <>
           <SettingBlock

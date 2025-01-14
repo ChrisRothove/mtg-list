@@ -12,12 +12,12 @@ export default function Drawer({open, closeDrawer, children}: DrawerProps) {
   const classes = open ? "drawer open" : "drawer closed";
 
   return (
-    <nav className={classes}>
+    <div className={classes}>
       <div className="banner">
         <button onClick={() => closeDrawer(false)}><FontAwesomeIcon icon={faX} /></button>
         <h1>Set Details</h1>
       </div>
       {children}
-    </nav>
+    </div>
   )
 }
