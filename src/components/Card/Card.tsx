@@ -14,8 +14,8 @@ export default function Card({card}: CardProps) {
       </div>
       <ManaSymbols cost={card.cost} isVertical/>
       <div className='type-line'>
-        &mdash; {card.superType}
-        {card.subType ?  <span> &mdash; {card.subType}</span> : ''} &mdash;
+        {card.superType}
+        {card.subType ?  <span> &mdash; {card.subType}</span> : ''}
       </div>
       <div className='rules-text'>
         <Paragraphy text={card.rules} />

@@ -146,10 +146,11 @@
 }
 .type-line {
   position: absolute;
-  top: 245px;
+  top: 250px;
   left: 0px;
   padding: 0% 20px;
   width: calc(100% - 40px);
+  font-size: small;
 }
 .rules-text {
   position: absolute;
