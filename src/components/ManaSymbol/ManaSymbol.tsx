@@ -12,7 +12,7 @@ export default function ManaSymbols(
   const symbols = cleanSymbols.split("");
   return (
     <div className={className}>
-      {symbols.map((symbol: string) => <div className='mana-symbol'>
+      {symbols.map((symbol: string, index: number) => <div key={symbol + index} className='mana-symbol'>
         <p>{symbol}</p>
       </div>)}
     </div>

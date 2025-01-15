@@ -97,6 +97,17 @@
   min-width: 150px;
 }
 
+@media (min-width: 450px) {
+  .setting-block {
+    background-color: var(--header-bg);
+    border-radius: 8px;
+    margin: 16px 0;
+  }
+  .setting-block h2 {
+    margin: 0;
+  }
+}
+
 /* Big Card Styles */
 .card {
   width: 320px;
@@ -241,4 +252,52 @@
   height: 100%;
   background-color: var(--background);
   opacity: 0.4;
+}
+
+/* desktop list styles */
+.two-up-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.two-up-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  margin: 8px 16px;
+}
+.full-card-table {
+  width: 100%;
+}
+.full-card-table tr:nth-child(even) {
+  background-color: color-mix(in srgb, var(--highlight) 10%, transparent);
+}
+.full-card-table tr:hover {
+  background-color: var(--banner);
+}
+.full-card-table .table-header,
+.full-card-table .table-header:hover {
+  background-color: var(--header-bg);
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.full-card-table th {
+  font-family: "Eczar", "Courier New", Courier, monospace;
+}
+.full-card-table th:nth-child(1) {
+  border-radius: 8px 0px 0px 8px;
+}
+.full-card-table th:nth-child(3) {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.full-card-table td {
+  padding: 4px 8px;
+  text-align: left;
+  cursor: pointer;
 }

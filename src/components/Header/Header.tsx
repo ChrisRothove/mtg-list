@@ -1,15 +1,15 @@
 type OpenDrawer = (b: boolean) => void;
 
 interface HeaderProps {
-  openDrawer: OpenDrawer
+  openDrawer?: OpenDrawer
 }
 export default function Header({openDrawer}: HeaderProps ) {
   return (
     <div className='banner'>
       <h1>Featherwalk's Custom Cards</h1>
-      <button onClick={() => openDrawer(true)}>
+      {openDrawer && <button onClick={() => openDrawer(true)}>
         Set
-      </button>
+      </button>}
     </div>
   )
 }

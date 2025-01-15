@@ -37,10 +37,14 @@ function MobileLayout({currentSet, setCurrentSet}: MobileLayoutProps) {
       <Header openDrawer={setDrawerIsOpen} />
       {displayStyle === Display.Single
         ? (
-          <SingleCardDisplay
-            cardList={cardList}
-            updateDisplay={updateDisplay}
-          />
+          <SingleCardDisplay cardList={cardList}>
+            <SettingBlock
+              options={Object.values(Display)}
+              defaultValue={Display.Single as string}
+              blockLabel='Display'
+              updateFn={updateDisplay}
+            />
+          </SingleCardDisplay>
         )
         : (
           <MobileListDisplay

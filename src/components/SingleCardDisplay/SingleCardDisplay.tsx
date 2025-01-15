@@ -3,16 +3,16 @@ import { useSingleCardDisplay } from "./hooks/useSingleCardDisplay";
 import {default as FullCard} from "../Card/Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import SettingBlock from "../SettingBlock/SettingBlock";
-import { Display } from "../../objects/displayOptions";
 
-type UpdateDisplay = (e: React.ChangeEvent<HTMLSelectElement>) => void;
 interface SingleCardDisplayProps {
   cardList: Card[],
-  updateDisplay: UpdateDisplay
+  children?: React.ReactNode,
+  currentCard?: Card
 }
 
-export default function SingleCardDisplay({ cardList, updateDisplay }: SingleCardDisplayProps) {
+export default function SingleCardDisplay(
+  { cardList, children, currentCard }: SingleCardDisplayProps
+) {
   const {
     card,
     next,
@@ -22,14 +22,9 @@ export default function SingleCardDisplay({ cardList, updateDisplay }: SingleCar
 
   return (
     <div className="mobile-content">
-      <SettingBlock
-        options={Object.values(Display)}
-        defaultValue={Display.Single as string}
-        blockLabel='Display'
-        updateFn={updateDisplay}
-      />
-      <FullCard card={card} />
-      <div className='single-card-nav'>
+      {children}
+      <FullCard card={currentCard || card} />
+      {!currentCard && <div className='single-card-nav'>
         <button onClick={previous}>
           <FontAwesomeIcon icon={faChevronLeft} />
         </button>
@@ -38,7 +33,7 @@ export default function SingleCardDisplay({ cardList, updateDisplay }: SingleCar
         <button onClick={next}>
           <FontAwesomeIcon icon={faChevronRight} />
         </button>
-      </div>
+      </div>}
     </div>
   )
 }
