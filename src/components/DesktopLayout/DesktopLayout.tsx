@@ -7,11 +7,8 @@ import Header from "../Header/Header";
 import { useCardList } from "../mobile-layout/hooks/useCardList";
 import SettingBlock from "../SettingBlock/SettingBlock";
 import SingleCardDisplay from "../SingleCardDisplay/SingleCardDisplay";
-import { useTablePagination } from "./hooks/useTablePagination";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons/faChevronLeft";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight";
 import DesktopListDisplay from "../DesktopListDisplay/DesktopListDisplay";
+import Paragraphy from "../Paragraphy/Paragraphy";
 
 type SetCurrentSet = (s: Set) => void;
 interface DesktopLayoutProps {
@@ -33,6 +30,10 @@ export default function DesktopLayout(
   return (
     <>
       <Header />
+      <div className="set-paragraph">
+        <h3 className="set-header">{currentSet}</h3>
+        <Paragraphy text={SET_INFO[currentSet]} />
+      </div>
       <div className="two-up-layout">
         <SingleCardDisplay
           cardList={cardList}

@@ -3,6 +3,7 @@ import { Card } from "../../objects/card";
 import { useTablePagination } from "../DesktopLayout/hooks/useTablePagination";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons/faChevronLeft";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight";
+import { MECHANICS } from "../../constants/mechanic-info";
 
 type SetCurrentCard = (n: number) => void;
 interface DesktopListProps {
@@ -24,8 +25,23 @@ export default function DesktopListDisplay(
     paginatedCardList
   } = useTablePagination(cardList);
 
+  const mechanics = MECHANICS[cardList[0].set]
   return (
     <div className="two-up-right">
+      <table className="full-card-table mechanics-table">
+        <tr className="table-header">
+          <th>Mechanics</th>
+          <th>Description</th>
+        </tr>
+        {mechanics.map((mechanic) => {
+          return (
+            <tr key={mechanic.title}>
+              <td>{mechanic.title}</td>
+              <td><i>{mechanic.body}</i></td>
+            </tr>
+          )
+        })}
+      </table>
       <table className="full-card-table">
         <tr className="table-header">
           <th>Name</th>

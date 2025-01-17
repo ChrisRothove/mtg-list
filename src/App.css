@@ -98,6 +98,13 @@
 }
 
 @media (min-width: 450px) {
+  .banner {
+    align-items: center;
+    justify-content: center;
+  }
+  .banner h1 {
+    font-size: x-large;
+  }
   .setting-block {
     background-color: var(--header-bg);
     border-radius: 8px;
@@ -256,12 +263,24 @@
 
 /* desktop list styles */
 .two-up-layout {
+  width: 1100px;
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: center;
 }
-
+.set-header {
+  padding: 4px;
+  margin: 8px 0;
+  background-color: var(--header-bg);
+  border-radius: 8px;
+}
+.set-paragraph {
+  width: 1100px;
+}
+.set-paragraph p {
+  text-align: justify;
+}
 .two-up-right {
   display: flex;
   flex-direction: column;
@@ -269,6 +288,7 @@
   justify-content: center;
   width: 750px;
   margin: 8px 16px;
+  gap: 8px;
 }
 .full-card-table {
   width: 100%;
@@ -300,4 +320,11 @@
   padding: 4px 8px;
   text-align: left;
   cursor: pointer;
+}
+
+.mechanics-table th:nth-child(2) {
+  border-radius: 0px 8px 8px 0px;
+}
+.mechanics-table td {
+  font-size: small;
 }
