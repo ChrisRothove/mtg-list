@@ -15,6 +15,7 @@ export interface Card {
 export interface DirtyCard {
   "Name": string,
   "Color": string,
+  "cmc": string,
   "Commander": string,
   "Cost": string,
   "Deck": string,

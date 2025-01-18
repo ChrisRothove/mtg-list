@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "ESNext",
-    "lib": ["ES5"]
+    "lib": ["ES5", "ES2021"]
   },
   "files": [],
   "references": [
