@@ -17,7 +17,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Black\nDarkworld Laboratory enters tapped.\nT: add {u} or {r}. If Darkworld Laboratory is sponsored, you may add {b} instead.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Land"
+    "Super Type": "Land",
+    "cmc": ""
   },
   {
     "Name": "Numeral 5 Charm",
@@ -31,7 +32,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flashback - {2}{b}\nChoose one:\nTarget player sacrifices a token permanent and a nontoken permanent.\nEach opponent loses 1 life. You gain life equal to the amount of life lost this way.\nAmbassadors get -X/-X where X is the number of ambassadors on the battlefield.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "May Flowers, Journey Ambassador",
@@ -45,7 +47,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador (When this card enters, if you own it, choose an opponent to take control of it. “You” or “your” on this card refers to both its owner and its controller. It can’t attack its owner.)\nT: Add {r} to your mana pool.\n1, T: Add {g}, or {w} to your mana pool.\n3, Untap May Flowers: You create a treasure token and a junk token.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Journey Charm",
@@ -59,7 +62,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flashback - {2}{r}\nChoose one:\nYou gain 3 life\nJourney Charm deals 2 damage to any target.\nProliferate. Then, if this is the second time this card was cast this game, proliferate.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Ox, “Citizen Savant” Ambassador",
@@ -73,7 +77,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador\nT: Add {g} to your mana pool.\n{1}, T: Add {u}{w} to your mana pool.\n3, Untap Ox: Ox gains First Strike and Trample until end of turn. Activate only on an opponent’s turn.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Citizen Savant Charm",
@@ -87,7 +92,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flashback - 2{g}\nChoose one: \nCreatures you control gain flying until end of turn.\nCounter target noncreature spell.\nPut a +1/+1 counter on each tapped creature you control. If any of those creatures have ambassador, instead put two +1/+1 counters on them.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Nadia, The Heiress",
@@ -101,7 +107,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "sponsored by white or black. (As an additional cost to cast this spell, you may tap a white or black creature.)\nNadia gets +0/+1 for each enchantment creature you control. \nWhen Nadia takes damage, if she was sponsored, you gain that much life.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Noble",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Stalwart Ambassador",
@@ -115,7 +122,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador, Defender\nT: add {w} to your mana pool. Use this mana only to cast Creature or Artifact spells.\n{3}, Untap Stalwart Ambassador: you gain 1 life and draw a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "The Great Brand War",
@@ -129,7 +137,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Black, Red, White, Green, or Black.\nWhile this Saga is on the battlefield, if it is Sponsored, cards with Ambassador can attack their owners.\nI: Take control of Target Ambassador. It gains deathtouch until end of turn.\nII,III: give control of Target Ambassador to target player. It deals damage equal to its power to its controller.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Saga",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Aelita’s Murderboard",
@@ -143,7 +152,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Aelita’s murderboard enters tapped unless an opponent controls a legendary permanent.\nT: Add one mana of any color to your mana pool. If that color is shared by a legendary permanent an opponent controls, you and that player each draw a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "Navigation Gear",
@@ -157,7 +167,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Imprint {x} - When Navigation Gear enters, exile a creature card with mana value X or less from your hand.\nNavigation Gear has all activated abilities of the imprinted creature.\nWhen Navigation Gear leaves the battlefield, return the imprinted card to it's owner's library third from the top.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Equipment",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "Doll, Mechanical Idol",
@@ -171,7 +182,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by red, white, blue, green, or black.\nDoll has protection from the colors that sponsored it.\nWhen Doll, Mechanical Idol attacks, she deals damage to target creature equal to number of colors among permanents defending player controls.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Robot Diver",
-    "Super Type": "Legendary Artifact Creature"
+    "Super Type": "Legendary Artifact Creature",
+    "cmc": ""
   },
   {
     "Name": "Communal Vending Machine",
@@ -185,7 +197,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Tempting Offer - {2}, t: create a food token. Each opponent may create a food token. For every opponent who does, you create a food token. Activated abilities of Food cost {1} less to activate until your next turns end step.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "L8ter Gator",
@@ -199,7 +212,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "{2}, t, sacrifice this permanent: Target creature gains Haste until end of turn. Draw a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Food",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "Archive of Suspicion",
@@ -213,7 +227,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored creatures are no longer sponsored and players can’t pay sponsorship costs. \nSpells you cast have “Sponsored by colorless” and “If this spell was sponsored, draw a card as it resolves.”",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Avatar Horror",
-    "Super Type": "Legendary Artifact Creature"
+    "Super Type": "Legendary Artifact Creature",
+    "cmc": ""
   },
   {
     "Name": "Aelita Knox, Fad Chaser",
@@ -227,7 +242,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Aelita Knox’s power and toughness are each equal to the number of legendary permanents you don’t control.\n{5}: for each color of mana spent to activate this ability, choose a legendary permanent you don’t control that shares that color. That permanent deals damage to it’s controller equal to it’s mana value. You may choose a permanent from among them and create a token that’s a copy of that permanent except it has “Sacrifice this permanent at the end of your turn.”",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Influencer",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Waterfall City",
@@ -241,7 +257,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "T: Add W.\n1, T, Tap a multicolored creature you control: Add one mana of each color in that creature's color identity.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Land"
+    "Super Type": "Legendary Land",
+    "cmc": ""
   },
   {
     "Name": "Breathe Deep, Seek Peace",
@@ -255,7 +272,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Each player may chooses a creature. Prevent all combat damage those creatures would deal this turn. Each player who chose a creature may untap a land they control.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Sunstone",
@@ -269,7 +287,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "1, T, Sacrifice this token: Prevent all combat damage dealt by target creature this turn.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Sunstone",
-    "Super Type": "Artifact Token"
+    "Super Type": "Artifact Token",
+    "cmc": ""
   },
   {
     "Name": "Find the Light",
@@ -283,7 +302,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Target creature you control Finds the Light (to find the light, exile target creature. Return it to the battlefield under your control at the beginning of the next end step and create a Sunstone Token).",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Sorcery"
+    "Super Type": "Sorcery",
+    "cmc": ""
   },
   {
     "Name": "Ogthar, Saurian Uniter",
@@ -297,7 +317,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Indestructible\nAs long as your devotion to white and green is less than 7, Ogthar isn't a creature.\nHumans are Dinosaurs in addition to their other Types.\nDinosaurs are Humans in addition to their other types.\n1W: Target creature you control Finds the Light",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "God",
-    "Super Type": "Legendary Enchantment Creature"
+    "Super Type": "Legendary Enchantment Creature",
+    "cmc": ""
   },
   {
     "Name": "The Ten Codes of Dinotopia",
@@ -311,7 +332,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Indestructible\nT: Add one mana of any color\n{2}{w}{w}, T, Sacrifice The Twelve Codes of Dinotopia: Any number of target creatures Find the Light.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Monument",
-    "Super Type": "Legendary Artifact"
+    "Super Type": "Legendary Artifact",
+    "cmc": ""
   },
   {
     "Name": "The Prime Sunstone",
@@ -325,7 +347,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Lorecraft - If mana from a historic permanent was spent to cast this spell, it enters with an Indestructible counter on it.\nT: Add {1}{w}. Use this mana only to cast a creature spell. That creature enters with a shield counter on it.\n1, T, sacrifice this permanent: prevent all damage that would be dealt by target creature this turn.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Sunstone",
-    "Super Type": "Legendary Artifact"
+    "Super Type": "Legendary Artifact",
+    "cmc": ""
   },
   {
     "Name": "David Scott, Skybax Rider",
@@ -339,7 +362,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "First Strike\nAt your upkeep, you may have target creature you control Find the Light.\nWhenever a permanent you control enters from exile, draw a card if it’s the first time this ability has resolved this turn. If it’s the second time, you may remove a time counter from a commander you control. Otherwise, put a +1/+1 counter on David Scott.\nLife Partner with Freefall, Contrary Skybax",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Human Soldier",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Carl Scott, Troublemaker",
@@ -353,7 +377,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Humans you control have haste.\nAt the beginning of combat on your turn, if a creature you control has been exiled this turn, put a +1/+1 counter on Carl Scott, Troublemaker.\nWhen Carl Scott deals combat damage to a player, draw a card and remove a time counter from a Commander you control.\nLife Partner with Twenty Six, Curious Cerapod",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Human Survivor",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Arreny Baelfire",
@@ -367,7 +392,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Dreaming - When Arreny becomes untapped, create a 1/1 green and white toy artifact creature token with “Dreaming - when this permanent becomes untapped, put a +1/+1 counter on it.”",
     "Set": "Guardians of Light (https://www.notion.so/Guardians-of-Light-131191e612ca808aa7a0c8814b58db0e?pvs=21)",
     "Sub Type": "Replica Warrior",
-    "Super Type": "Legendary Artifact Creature"
+    "Super Type": "Legendary Artifact Creature",
+    "cmc": ""
   },
   {
     "Name": "Freefall, Contrary Skybax",
@@ -381,7 +407,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Suspend Commander 3 - {r}\nFlying, Saddle 2\nOther commanders you control have flying\nWhen Freefall, Contrary Skybax attacks, if it was saddled it gains Lifelink and each creature tapped to saddle it Finds the Light.\nLife Partner with David Scott, Skybax Rider",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Dinosaur",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Twenty-Six, Curious Cerapod",
@@ -395,7 +422,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Suspend Commander 2 - {g}\nDefender\nCommanders you control have Trample\nDinosaurs you control cost 1 less to cast.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Dinosaur",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Sunstone Cavern",
@@ -409,7 +437,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "T: add {c}\n2, T: add X mana of any one color where X is the number of Sunstones you control.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Cave",
-    "Super Type": "Legendary Land"
+    "Super Type": "Legendary Land",
+    "cmc": ""
   },
   {
     "Name": "Cyrus Crabb, Independent Spirit",
@@ -423,7 +452,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Lorecraft - As Cyrus Crabb enters, if mana from a historic permanent was spent to cast it, Discover 4.\nWhenever a historic permanent enters the battlefield under an opponent’s control, create a tapped treasure token. \n{1}{r}, T, Sacrifice 3 treasures: Destory target artifact.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Human Citizen",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Armored Brachiosaurus",
@@ -437,7 +467,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Defender\nWhen a creature with toughness lower than Armored Brachiosaurus is dealt damage, you can have Armored Brachiosaurus take that damage instead.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Dinosaur",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Rainy Basin",
@@ -446,12 +477,13 @@ export const CARDLIST: DirtyCard[] = [
     "Cost": "",
     "Deck": "Survival of All or None {💧☀️🌳} (https://www.notion.so/Survival-of-All-or-None-418518ac7e0f4559980abab48dd6d7d4?pvs=21)",
     "Flavor": "",
-    "Mechanics": "",
+    "Mechanics": "Threat lands (cycle) (https://www.notion.so/Threat-lands-cycle-131191e612ca80b0aa48fa35e5d38a0c?pvs=21)",
     "P/T": "",
     "Rules": "Rainy Basin enters tapped unless you tap 2 creatures you control.\nT: add {u} or {g}. Put a threat counter on Rainy Basin. \n1{u}{g}, T, Remove 6 threat counters from Rainy Basin: Create a green 6/6 Dinosaur Creature Token with Forestwalk.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Land"
+    "Super Type": "Legendary Land",
+    "cmc": ""
   },
   {
     "Name": "Unu, Squadron Leader",
@@ -465,7 +497,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flying, First Strike\n{4}{r}{w}, T: For each human you control, create a 2/2 Dinosaur creature token with flying named “Skybax”. Activate only as a Sorcery.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Human Soldier",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Razor Reef",
@@ -474,12 +507,13 @@ export const CARDLIST: DirtyCard[] = [
     "Cost": "",
     "Deck": "The World Beneath {💀💧🔥} (https://www.notion.so/The-World-Beneath-c54a347592de4107acd463aa941a626c?pvs=21)",
     "Flavor": "“Welcome to Dinotopia.” - Carl Scott",
-    "Mechanics": "",
+    "Mechanics": "Threat lands (cycle) (https://www.notion.so/Threat-lands-cycle-131191e612ca80b0aa48fa35e5d38a0c?pvs=21)",
     "P/T": "",
     "Rules": "Razor Reef enters tapped unless  you tap 2 creatures you control.\nT: add {r} or {u}. Put a threat counter on Razor Reef.\n{1}{r}{u}, T, remove 6 threat counters from Razor Reef: create a 6/6 blue leviathan creature token with Islandwalk.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Land"
+    "Super Type": "Legendary Land",
+    "cmc": ""
   },
   {
     "Name": "Waldo Seville, Mayor",
@@ -493,7 +527,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Lorecraft - When Waldo Seville enters, if mana from a historic permanent was spent to cast it, scry 1, then draw a card.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "Human Noble",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "One Raindrop Raises the Sea",
@@ -507,7 +542,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Lorecraft - When One Raindrop Raises the Sea enters, if mana from a historic permanent was spent to cast it, you draw a card and gain 2 life.\nWhenever a creature token enters under your control, you may draw a card.",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Colosseum",
@@ -521,7 +557,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Colosseum enters tapped. \nT: Add {r}, {g}, or {w}. \n{r}{g}{w}, T: Target legendary creature you control fights target legendary creature you don’t control.\nCrew 8",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Vehicle",
-    "Super Type": "Legendary Artifact Land"
+    "Super Type": "Legendary Artifact Land",
+    "cmc": ""
   },
   {
     "Name": "[esper vehicle land]",
@@ -535,7 +572,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Artifact Land"
+    "Super Type": "Legendary Artifact Land",
+    "cmc": ""
   },
   {
     "Name": "The Hungry Fortress",
@@ -549,7 +587,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "The Hungry Fortress enters tapped. \nT: add {u}, {b}, or {r}.\n{u}{b}{r}, T, Exhaust The Hungry Fortress: Target opponent sacrifices a non-basic land.\nCrew 8",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Artifact Land"
+    "Super Type": "Legendary Artifact Land",
+    "cmc": ""
   },
   {
     "Name": "[Jund vehicle land]",
@@ -563,7 +602,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Artifact Land"
+    "Super Type": "Legendary Artifact Land",
+    "cmc": ""
   },
   {
     "Name": "Highland Wanderfort",
@@ -577,7 +617,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Highland Wanderfort enters tapped.\nT: add {u}, {g} or {w}.\n{u}{g}{w}, T: Put a card from your hand face-down on the battlefield. You may turn it face-up at any time for its mana cost if it’s a creature card. It’s a 2/2 pilot with flying and “When this permanent is turned face-up, put a shield counter on target creature.”\nCrew 8.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Legendary Artifact Land"
+    "Super Type": "Legendary Artifact Land",
+    "cmc": ""
   },
   {
     "Name": "Wave of Dirges",
@@ -591,7 +632,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Landfall - When a land enters the battlefield under your control, create a 1/1 red and black horror creature token with haste named “Dirge”. Then, if you control 10 or more creatures named “Dirge,” put a +1/+1 counter on each creature named “Dirge”",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Horror",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Cloaked Dirgemind",
@@ -605,7 +647,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Whenever Cloaked Dirgelord enters or attacks, create a 1/1 blue horror creature token named “Dirge”. \nIf the number of creatures you control named “Dirge” is greater than 3, Clocked Dirgelord has shadow.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Alien Scion",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Hunt the Horde",
@@ -619,7 +662,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "During each opponent’s upkeep, they create a 1/1 black and red horror creature token named “Dirge”. \nWhen a creature named “Dirge” you don’t control dies, you draw a card and gain 1 life.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Winged Dirgemind",
@@ -633,7 +677,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flying\nT: Create a 1/1 black horror creature token named “Dirge.” It gains Deathtouch and Haste until end of turn and must attack if able. Sacrifice it at your end step. Only activate this ability during your precombat main phase. If you control 3 or more creatures named “Dirge,” put a +1/+1 counter on Winged Dirgemind.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Alien Deserter",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Rooted Dirgemind",
@@ -647,7 +692,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Defender, Toxic 2\nWhen Rooted Dirgelord enters or blocks, create X 0/2 green horror creature tokens named “Dirge” with reach. \nIf you control 3 or more creatures named “Dirge”, Rooted Dirgelord can attack as though it didn’t have Defender.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Plant Horror",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Molten Dirgemind",
@@ -661,7 +707,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "At the beginning of combat on your turn, you may sacrifice an artifact. If you do, create X 1/1 red horror creature tokens named “Dirge” with haste where X is the converted mana cost of the sacrificed artifact + 1. If you control 3 or more creatures named “Dirge,” each opponent loses 1 life.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Alien Elemental",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Cloistered Dirgemind",
@@ -675,7 +722,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Defender, Lifelink\nWhenever an opponent plays their second land in a turn, casts their second spell in a turn, or draws their second card in a turn, create a 1/1 white horror creature token with lifelink named “Dirge”, then draw a card if you control 3 or more creatures with the name “Dirge”",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Horror Wall",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Gutterpit Engine",
@@ -689,7 +737,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sacrifice 2 creature tokens: add one mana of any color.",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "Inconspicuous Combatant",
@@ -703,7 +752,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "First Strike",
     "Set": "Hivemind (https://www.notion.so/Hivemind-131191e612ca80f69746d980c168f974?pvs=21)",
     "Sub Type": "Human Refugee",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "",
@@ -717,7 +767,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Dinotopia (https://www.notion.so/Dinotopia-131191e612ca809b894ed03cf424d9e8?pvs=21)",
     "Sub Type": "",
-    "Super Type": ""
+    "Super Type": "",
+    "cmc": ""
   },
   {
     "Name": "Dauntless Charm",
@@ -731,7 +782,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flashback - {2}{u}\nChoose one:\nCreate two 1/1 warrior tokens with haste.\nTarget creature you control gains double strike until end of turn.\nCreatures you control gain +1/+1 until end of turn.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Clandestine Arena",
@@ -745,7 +797,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Blue. \nClandestine Arena enters tapped.\nT: Add {r} or {w}. If Clandestine Arena was sponsored, you may add {u} instead.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Land"
+    "Super Type": "Land",
+    "cmc": ""
   },
   {
     "Name": "The Brand Game",
@@ -759,7 +812,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Destroy target non-ambassador, non-noble, non-artificer creature. You may untap target Ambassador.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Fast Fashion",
@@ -773,7 +827,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Imprint - When Fast Fashion enters, exile an instant or sorcery from your graveyard with converted mana cost 3 or less. \nAs Fast Fashion enters the battlefield, you may equip it to a creature token you control. If you do, that creature gains haste until end of turn.\nWhen equipped creature attacks, you may pay {1}{r}. If you do, copy the card imprinted by Fast Fashion.\nEquip {3}",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Equipment",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "Festival Bazaar",
@@ -787,7 +842,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Red\nFestival Bazaar enters tapped.\nT: add {g} or {w}. If Festival Bazaar is sponsored, you may instead add {r}.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Land"
+    "Super Type": "Land",
+    "cmc": ""
   },
   {
     "Name": "Grand Amphitheater",
@@ -801,7 +857,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Green.\nGrand Amphitheater enters tapped.\nT: add {u} or {w}. If Darkworld Laboratory is sponsored, you may instead add {g}.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Land"
+    "Super Type": "Land",
+    "cmc": ""
   },
   {
     "Name": "[Name] N5 Ambassador",
@@ -815,7 +872,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": ""
+    "Super Type": "",
+    "cmc": ""
   },
   {
     "Name": "[Name] Dauntless Ambassador",
@@ -829,7 +887,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": ""
+    "Super Type": "",
+    "cmc": ""
   },
   {
     "Name": "Opportunistic Ambassador",
@@ -843,7 +902,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador, Haste\nT: add {r} to your mana pool.\n{2}, untap Opportunistic Ambassador: You may have up to one target creature gain haste.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Flourishing Ambassador",
@@ -857,7 +917,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador, Trample\nT: add {g} to your mana pool.\n{3}, untap Flourishing Ambassador: Put a +1/+1 counter on Flourishing Ambassador and one other target creature you control.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Pushy Ambassador",
@@ -871,7 +932,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador, Deathtouch\nT: add {b}. If an ambassador you own is controlled by another player, instead add {1}{b}.\n{3}, Untap Pushy Ambassador: You may draw a card, then discard a card. This card’s controller loses 1 life.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Curious Ambassador",
@@ -885,7 +947,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador\nLandfall - When a land enters under your control, scry 1.\nT: add {1}. \n{3}, Untap Curious Ambassador: You may return an instant or sorcery card from your graveyard to the battlefield.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Harold Marquee, Jaded Financier",
@@ -899,7 +962,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Whenever you gain 1 or more life, target opponent loses 1 life. \nWhenever you gain 3 or more life, create a treasure token. \nWhenever you gain 5 or more life, you draw a card and target opponent discards a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Noble",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Back Room Deal",
@@ -913,7 +977,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Black. \nScry 1. If this card was sponsored, you may instead surveil 2.\nDraw a Card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Nadia, The Nightingale",
@@ -927,7 +992,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Curiosity - When Nadia Marquee enters and when you expend 5 each turn, you may exile an enchantment from your graveyard. If you do, create a token that is a copy of that enchantment except that it’s a 0/4 artifact wall creature in addition to its other types. Then, if Nadia is sponsored, you gain 3 life. (You expend 5 as you spend your 5th total mana to cast spells during a turn.)",
     "Set": "Guardians of Light (https://www.notion.so/Guardians-of-Light-131191e612ca808aa7a0c8814b58db0e?pvs=21)",
     "Sub Type": "Human Warrior Noble",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Bridgette, Top of the Charts",
@@ -941,7 +1007,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by Blue.\nWhen Bridgette attacks, you gain X life, where X is the number of attacking creatures. If Bridgette was sponsored, she gains flying until end of turn.\nWhen Bridgette blocks, target opponent loses X life, where X is the number of blocking creatures.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Urisa, Dauntless Prodigy",
@@ -955,7 +1022,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Haste, Prowess, Sponsored by blue.\nIf Urisa was sponsored, other creatures you control have Prowess.\nWhen Urisa attacks or blocks, you may tap target creature and remove it from combat. If Urisa was sponsored, put a stun counter on that creature.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Warrior",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Winn Allen, “Sun Up” Ambassador",
@@ -969,7 +1037,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Ambassador\nT: Add {w} to your mana pool.\n{1}, T: Add {r}{g} to your mana pool.\n{3}, Untap Winn: Creatures you control enter the battlefield with Raid this turn.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "[Sun Up Diver]",
@@ -983,7 +1052,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": ""
+    "Super Type": "",
+    "cmc": ""
   },
   {
     "Name": "[Dark Matter Diver]",
@@ -997,7 +1067,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": ""
+    "Super Type": "",
+    "cmc": ""
   },
   {
     "Name": "Gravitas, Master of Misery",
@@ -1011,7 +1082,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Menace, Deathtouch\nHumans lose Dreaming and can’t gain Dreaming.\nWhenever an opponent’s creature becomes tapped, create a tapped treasure token. If that creature was human, untap those treasure tokens.\n{b}{r}, T: Tapped treasure tokens you control are 1/1 artifact creatures in addition to their other types until end of turn. Untap them. They gain haste until end of turn.",
     "Set": "Guardians of Light (https://www.notion.so/Guardians-of-Light-131191e612ca808aa7a0c8814b58db0e?pvs=21)",
     "Sub Type": "Human Avatar Horror",
-    "Super Type": "Legendary Enchantment Creature"
+    "Super Type": "Legendary Enchantment Creature",
+    "cmc": ""
   },
   {
     "Name": "Archive of Misery",
@@ -1025,7 +1097,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flash, Blitz {r}\nCreatures lose indestructible and can’t gain indestructible.\nWhen an opponent’s creature becomes untapped, it deals 1 damage to it’s controller and you put a misery counter on Archive of Misery. \nAt your upkeep, if there are 20 or more misery counters on Archive of Misery, you win the game.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Avatar Horror",
-    "Super Type": "Legendary Enchantment Creature"
+    "Super Type": "Legendary Enchantment Creature",
+    "cmc": ""
   },
   {
     "Name": "Archive of Seduction",
@@ -1039,7 +1112,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Miracle - {1}{w}\nCreatures lose hexproof and shroud and can’t gain hexproof or shroud.\nWhenever an opponent’s creature becomes untapped, if it had ward, it’s controller must pay it’s ward cost or sacrifice it.\nWhenever an opponent sacrifices a creature, you gain 1 life and draw a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Avatar Horror",
-    "Super Type": "Legendary Enchantment Creature"
+    "Super Type": "Legendary Enchantment Creature",
+    "cmc": ""
   },
   {
     "Name": "Archive of Hunger",
@@ -1053,7 +1127,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Creatures in hands and libraries lose flash and can’t gain flash.\nAt each player’s upkeep, if that player controls fewer creatures than you, that player sacrifices a creature. If a creature was sacrificed this way, put a +1/+1 counter on Archive of Hunger.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Avatar Horror",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Archive of Loss",
@@ -1067,7 +1142,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Impending {1}{b}\nCreatures lose lifelink and can’t gain lifelink\nWhen Archive of Loss attacks, defending player may sacrifice a creature. If they don’t, they lose 5 life.\nAt your upkeep, if Archive of Loss is untapped, you may discard two cards. If you do, you gain 1 life and draw a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Avatar Horror",
-    "Super Type": "Legendary Enchantment Creature"
+    "Super Type": "Legendary Enchantment Creature",
+    "cmc": ""
   },
   {
     "Name": "Archive of Obsession",
@@ -1081,7 +1157,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "suspend 4 - {1}{u}\nWhen you remove a time counter from this card in exile, draw a card.\nCreatures lose haste and can’t gain haste.\nIf a triggered ability of a permanent an opponent controls would cause them to draw a card, you draw a card instead.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Avatar Horror",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Frank Bones, Shop Clerk",
@@ -1095,7 +1172,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "When Frank Bones enters, target player draws a card.\nAt each player’s end step, you may draw a card if that player used mana from an artifact to cast a spell this turn.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Skeleton",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Window Shopping",
@@ -1109,7 +1187,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by blue\nWhenever an opponent plays their first land in a turn, you may put a land from your hand onto the battlefield. If Window Shopping was sponsored, you scry 1.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Dive Gate",
@@ -1123,7 +1202,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by white. \nDive Gate enters tapped.\nT: Add {b} or {g}. If Dive Gate was sponsored, you may add {w} instead.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Land"
+    "Super Type": "Land",
+    "cmc": ""
   },
   {
     "Name": "Crux Stadium",
@@ -1137,7 +1217,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by white. \nCrux Stadium enters tapped.\nT: Add {r} or {b}. If Crux Stadium was sponsored, you may add {w} instead.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Land"
+    "Super Type": "Land",
+    "cmc": ""
   },
   {
     "Name": "Platform Boots",
@@ -1151,7 +1232,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flash\nSponsored by Blue\nAs Platform Boots enters the battlefield, attach it to target legendary creature you control. If it was sponsored, that creature gains hexproof until end of turn.\nWhen equipped creature blocks, it deals 2 damage to each creature attacking you. \nAt end of turn, sacrifice Platform Boots unless it was sponsored.\nEquip Legendary Creature 2",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Artifact"
+    "Super Type": "Artifact",
+    "cmc": ""
   },
   {
     "Name": "Selfies in the Street",
@@ -1165,7 +1247,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Enchant Creature, Sponsored by black\nEnchanted creature loses all abilities, has base power and toughness 1/1, and is a Legendary hero creature in addition to its other types. Whenever enchanted creature becomes tapped, if Selfies in the Street was sponsored, you lose 1 life and create a treasure token.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Aura",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Scandalous Revelation",
@@ -1179,7 +1262,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "For each opponent, choose up to one tapped creature. For each creature chosen this way, their controllers may put X stun counters on them. For each opponent who does not, you draw X cards.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Sorcery"
+    "Super Type": "Sorcery",
+    "cmc": ""
   },
   {
     "Name": "Contract of Armistice",
@@ -1193,7 +1277,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by green.\nChoose a creature you control and a creature target opponent controls. Those creatures gain protection from each other.\n\nWhen Contract of Armistice leaves the battlefield, if Contract of Armistice was sponsored, the chosen creatures fight each other. (they deal damage to each other equal to their power.)",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Intrepid Navigator",
@@ -1207,7 +1292,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "When Intrepid Navigator enters, search your library for a land card and reveal it. If that land is basic, put it onto the battlefield tapped. Otherwise, put that land into your library 3rd from the top and sacrifice Intrepid Navigator.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Scout",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Unpaid Internship",
@@ -1221,7 +1307,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "If you control an ambassador you do not own, you may cast this spell without paying its mana cost. If you do, exile it as it resolves.\nCounter target creature spell. It’s controller creates a 1/1 blue and white human citizen token.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Smear Campaign",
@@ -1235,7 +1322,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "If you control an ambassador you don’t own, you may cast this spell without paying its mana cost. If you do, exile it as it resolves.\nDestroy target non-ambassador, non-artifact creature.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Back Stage Deal",
@@ -1249,7 +1337,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "If you control an ambassador you don’t own, you may cast this spell without paying its mana cost. If you do, exile it as it resolves.\nExile one target creature until another target creatures leaves the battlefield.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Inside Scoop",
@@ -1263,7 +1352,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "If you control an ambassador you don’t own, you may cast this spell without paying its mana cost. If you do, exile it as it resolves.\nTarget opponent reveals a card at random from their hand. Inside Scoop deals damage equal to that card’s mana value to its controller. That card’s controller may discard that card. If they do not, you draw a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Rigged Match",
@@ -1277,7 +1367,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "If you control an ambassador you don’t own, you may cast this spell without paying its mana cost. If you do, exile it as it resolves.\nTarget creature gets +X/+X until end of turn, where X is the number of tokens you control. You may have it fight target creature you don’t control.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Thrifty Business",
@@ -1291,7 +1382,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Charity (If at least one opponent controls a permanent you own, you get the city’s blessing for the rest of the game.)\nActivated abilities of tokens you control cost {1} less to cast.\nWhen you activate the mana ability of a token you control, if you have the city’s blessing, that token adds an additional {u} to your mana pool.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Isaac Fairweather of SEED",
@@ -1305,7 +1397,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Haste, First Strike\nWhen Isaac enters, exile the top X cards of your library, where X is 1 plus the number of times you’ve cast your commander from the command zone this game. You may cast those cards until the end of your turn.\nWhenever you cast an equipment spell from exile, you may attach it to target creature you control. Activate this ability only once each turn.",
     "Set": "Guardians of Light (https://www.notion.so/Guardians-of-Light-131191e612ca808aa7a0c8814b58db0e?pvs=21)",
     "Sub Type": "Human Keybearer",
-    "Super Type": "Legendary Creature"
+    "Super Type": "Legendary Creature",
+    "cmc": ""
   },
   {
     "Name": "Bottle Cap Collector",
@@ -1319,7 +1412,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Whenever you sacrifice a food token, add one mana of any color to your mana pool and Bottle Cap Collector deals 1 damage to you.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Merchant",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Intrepid Accessorazor",
@@ -1333,7 +1427,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Haste, Sponsored by green\nWhen this creature enters, if it was sponsored, put a +1/+1 counter on it.\nWhenever this creature attacks, you may put a land from your hand onto the battlefield. If you do, this creature deals 1 damage to itself.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Diver",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Tireless Advertiser",
@@ -1347,7 +1442,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "When this creature enters, choose a color.\nWhenever a nontoken permanent of the chosen color enters, you may create a Food token or a Treasure token.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Ambassador",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Cunning Hattrick",
@@ -1361,7 +1457,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Flash, sponsored by white\nYou may discard a card and lose a life rather than pay this card’s mana cost. If you do, sacrifice it at end of turn.\nWhen you cast this spell, create a number of treasure tokens equal to the number of other spells currently on the stack. \nWhen this creature enters, if it was sponsored, you gain life equal to the number of treasure tokens you control.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Diver",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Market Freeze",
@@ -1375,7 +1472,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Split Second\nDraw a card, then discard a card.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Instant"
+    "Super Type": "Instant",
+    "cmc": ""
   },
   {
     "Name": "Dashing Sleevegunner",
@@ -1389,7 +1487,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "When this creature enters, if it’s the first spell you cast this turn scry 1. If it’s the second spell you’ve cast this turn, draw a card. If it’s the third spell you’ve cast this turn, look at the top card of your library. You may cast that card if it’s an instant or sorcery.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Diver",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Freerunning Strapshot",
@@ -1403,7 +1502,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by white\nLandfall - Whenever a land enters under your control, if Freerunning Strapshot was sponsored, put a shield counter on that land and untap it. Then, Freerunning Strapshot gains +1/+1 until end of turn for each permanent you control with a shield counter on it.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Diver",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Seasoned Fisticuffs",
@@ -1417,7 +1517,8 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Lifelink, Double Strike\nThis creature enters with a shield counter on it for each permanent you control with at least one counter on it.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "Human Diver",
-    "Super Type": "Creature"
+    "Super Type": "Creature",
+    "cmc": ""
   },
   {
     "Name": "Social Contract",
@@ -1431,20 +1532,22 @@ export const CARDLIST: DirtyCard[] = [
     "Rules": "Sponsored by blue\nWhenever an opponent sponsors a spell, you gain 1 life.\nIf this permanent was sponsored, you may tap it as if it were a permanent of any color when sponsoring other spells.\nWhen a sponsored permanent enters, draw a card. This ability activates only once each turn.",
     "Set": "Daydream (https://www.notion.so/Daydream-136191e612ca8066b7d4e0fae1435934?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   },
   {
     "Name": "Endless Wonder // Warehouse 13",
     "Color": "R-U-Izzet",
     "Commander": "No",
-    "Cost": "{1}{r}{u}",
+    "Cost": "{2}{r}{u}",
     "Deck": "",
     "Flavor": "“I like to think of it as America’s attic.” - Artie, Episode 1",
     "Mechanics": "",
     "P/T": "",
-    "Rules": "When this enchantment enters and whenever an artifact enters under your control, put a wonder counter on this enchantment.\nAt the beginning of your upkeep, if there are twenty or more counters on this enchantment, Exile it and then return it to the battlefield transformed under your control.\n// Warehouse 13 - Legendary Land\nActivated abilities of artifacts your opponents control can’t be activated.\n{2}, {t}: Add X mana of any one color, where X is the number of artifacts you don’t control.",
+    "Rules": "Whenever a nontoken artifact enters under your control, put a wonder counter on this enchantment and draw a card.\nAt the beginning of your upkeep, if there are 13 or more counters on this enchantment, Exile it and then return it to the battlefield transformed under your control.\n// Warehouse 13 - Legendary Land\nActivated abilities of artifacts your opponents control can’t be activated.\n{2}, {t}: Add X mana in any combination of colors, where X is the number of artifacts you control.",
     "Set": "Warehouse 13 (https://www.notion.so/Warehouse-13-174191e612ca801b945fc67e2faff4d0?pvs=21)",
     "Sub Type": "",
-    "Super Type": "Enchantment"
+    "Super Type": "Enchantment",
+    "cmc": ""
   }
 ]
