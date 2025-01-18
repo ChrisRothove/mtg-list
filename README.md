@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# Featherwalk's Custom Magic Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This page acts as a portfolio for both **Typescript**, which I decided to learn for job-hunting purposes, and **Magic: The Gathering** card design.
 
-Currently, two official plugins are available:
+Recently I attended a Magic Con and discovered a new, deeper love for the game and the community. I have since been researching how to become a member of the design team for Magic. I've always enjoyed tinkering with silly card designs, and this is a more serious attempt to dissect the system and play around in it a little.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+My end game with these cards is to print out labels or something and create decks or cubes that I can playtest with my Commander pod and refine. **This is not mean as a commercial product of any kind. Please do not try to sell these designs or pass them off as real magic cards.**
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Typescript
+- Vanilla CSS
+- Fontawesome
 
-- Configure the top-level `parserOptions` property like this:
+This page was my first typescript project.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Future Enhancements
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+I'll be rolling out new tweaks here and there, but it is not a high priority. I plan to move on to some other projects first to refine what I've learned here. These are some things I'd like to add/improve:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- filters for list views.
+- Refined rules text on the cards.
+- The ability to export a sheet of labels to print these as proxies.
